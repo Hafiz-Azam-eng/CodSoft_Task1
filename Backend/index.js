@@ -70,3 +70,5 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+//Change the node version from 20 to 18 it will resolve the vercel 500 internal error
